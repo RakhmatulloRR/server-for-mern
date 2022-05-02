@@ -1,0 +1,37 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Raxmatillo\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add mongoose express joi cors
+
+PATH: 
+  C:\Users\Raxmatillo\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Raxmatillo\bin;C:\Python310\Scripts;C:\Python310;C:\Python39\Scripts;C:\Python39;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\ProgramData\chocolatey\bin;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\nodejs;C:\Program Files\Git\cmd;C:\Users\Raxmatillo\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\WebStorm 2021.2.3\bin;C:\Users\Raxmatillo\AppData\Local\Programs\mongosh;C:\Users\Raxmatillo\AppData\Roaming\npm;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.13.2
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:71:26)
+
+npm manifest: 
+  {
+    "name": "server_node",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
