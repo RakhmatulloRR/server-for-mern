@@ -1,7 +1,7 @@
 const { express, mongoose} = require("./npm");
 const { db, prod, routes, config } = require("./startup");
 const app = express();
-db(mongoose, 'mongodb://localhost/testDB')
+db(mongoose, 'mongodb+srv://RRR:<password>@cluster0.imykb.mongodb.net/myFirstDatabase?retryWrites=true&w=majority')
 prod(app);
 routes(app);
 config();
