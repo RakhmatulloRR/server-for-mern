@@ -12,9 +12,8 @@ const userSchema = new Schema({
   password: { type: String, required: true },
   isAdmin: Boolean,
 });
-// console.log(config.get("JWT_KEY"));
+
 userSchema.methods.generateAuthToken = function () {
-  // console.log(user)
   return jwt.sign({ _id: this.id, isAdmin: this.isAdmin }, config.get("JWT_KEY"));
 };
 const User = model("User", userSchema);

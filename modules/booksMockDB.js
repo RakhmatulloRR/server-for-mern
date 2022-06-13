@@ -61,6 +61,3 @@ const books = [
   },
 ];
 module.exports = books;
-
-const book = books[0];
-console.log(JSON.stringify(book))
